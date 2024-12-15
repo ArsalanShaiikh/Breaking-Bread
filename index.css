@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior:smooth;
+}
+body{
+    min-height: 100vh;
+    position: relative;
+}
+/* rgb(34, 69, 39) */
+nav {
+  z-index: 2;
+  background-image: linear-gradient(to right, rgb(3, 48, 17), rgb(61, 160, 173));
+  backdrop-filter: blur(10px);
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+
+#sitename{
+    font-family: "Emilys Candy", serif;
+}
+#carouselExampleFade{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-inner{
+    position: relative;
+    max-height: 100vh;
+}
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+.carousel-item{
+    position: relative;
+    height: 100%;
+}
+
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff; 
+  }
+
+.custom-navbar{
+    
+}
+video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+#menu-options a {
+    display: inline-block;
+    position: relative;
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%; 
+  }
+  
+  #menu-options a:hover {
+    background-image: linear-gradient(to right, rgb(0, 8, 255), rgb(255, 64, 0));
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent;
+  }
+  
+#menu-options a{
+    text-align: center;
+}
+.food-image{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.food-name{
+    font-size: 0.75rem;
+    margin: 0;
+}
+.ingredients{
+    font-size: 0.5rem;
+    color: grey;
+    margin-bottom: 8px;
+}
+.dotted-line{
+    flex-grow: 1;
+    border: 0;
+    border-top: 1px dotted #808080;
+}
+.price{
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+}
+
+.menu-item {
+    padding: 15px;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: 0.2s ease;
+  }
+  .menu-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hover effect */
+    transform: scale(1.05) ;
+  }
+  #menu-heading{
+    font-size: 20px;
+  }
+  #menu{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  #special{
+    min-height: 800px;
+    margin-top: 50px;
+
+  }
+  #events{
+    width: 100%;
+    position: relative;
+  }
+  .outerdiv{
+    width: 100%;
+    background-image: url('./images/party/party.jpg');
+    background-size: cover;
+
+  }
+  #carouselExampleIndicators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 800px;
+    position: relative;
+  }
+
+  #carousel-item{
+    width: 600px;
+  }
+
+  #carousel-inner{
+    object-fit: cover;
+    overflow: hidden;
+    
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0%, -90%);
+    text-align: center;
+    z-index: 10;
+  }
+
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+    color: white;
+  }
+  .card_style {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card_style:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body img {
+    border-radius: 100%;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+
+  .card-body img:hover {
+    transform: scale(1.05);
+  }
+
+  .title h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-links a {
+    font-size: 24px;
+  }
+  
