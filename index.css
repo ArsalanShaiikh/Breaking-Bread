@@ -220,4 +220,115 @@ video {
   .social-links a {
     font-size: 24px;
   }
-  
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&family=Lora:wght@400;600&family=Merriweather:wght@400;700&family=Raleway:wght@400;600&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Merriweather', serif;
+  color: #333; /* Adjust based on your color scheme */
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  color: #172F53; /* Matches the restaurant's elegant feel */
+}
+
+/* Navigation and menus */
+nav, .menu {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Special text (e.g., logo or highlighted sections) */
+.logo, blockquote {
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.8rem;
+  color: #a52a2a; /* Example accent color */
+}
+
+/* Paragraphs and secondary content */
+p, .subtitle {
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+}
+/* About Section */
+#about {
+  background: linear-gradient(135deg, rgba(230,245,250,1) 0%, rgba(204,228,247,1) 100%);
+  color: #0F3B57;
+  padding: 50px 0;
+}
+
+/* Menu Section */
+#menu {
+  background-color: #F7F7F7;
+  color: #333333;
+  padding: 50px 0;
+}
+
+/* Events Section */
+#events {
+  background: linear-gradient(135deg, rgba(255,244,229,1) 0%, rgba(245,229,208,1) 100%);
+  color: #5A3E2B;
+  padding: 50px 0;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #EDF4F8;
+  color: #1A2C38;
+  padding: 50px 0;
+}
+
+#form {
+  padding: 50px 15px;
+  background: linear-gradient(to right, #eae4e9, #ffdde1);
+}
+
+#form-titles h1 {
+  background-image: linear-gradient(to right, rgb(74, 151, 109), rgb(11, 199, 224));
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.form-section {
+  background: linear-gradient(to right, #fefbf3, #f4e2d8);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.form-section img {
+  border-radius: 10px;
+}
+
+.form-section label {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: rgb(74, 151, 109);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(11, 199, 224);
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
